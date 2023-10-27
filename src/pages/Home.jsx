@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <section className="bg-dark text-white font-urbanist h-screen grid bg-[url(/images/bg-mobile.png)] bg-no-repeat bg-right-bottom md:bg-[url(/images/bg-desktop.png)] transition-all grid-rows-[auto_1fr]">
-      <header className="bg-primary-dark flex justify-between p-4 px-4 uppercase items-center">
+      <header className="bg-primary-dark flex justify-between p-3 px-4 uppercase items-center">
         <h1 className="font-semibold text-lg">Gift Music</h1>
 
         <div className="flex gap-2">
