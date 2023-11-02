@@ -11,9 +11,9 @@ function App() {
       <section className='grid justify-center pt-4 md:px-2'>
       <div className='bg-white w-[270px] sm:w-[400px] sm:rounded-t-full md:w-[900px] md:rounded-t-full rounded-t-full'>
         <nav className='flex justify-between md:justify-end md:gap-6 md:pr-10 p-3 border-r-8 border-secondary rounded-tr-full font-semibold'>
-          <Link to="/">Inicio</Link>
-          <Link to="/blog">Curriculum</Link>
-          <Link to="/works">Trabajos</Link>
+          <Link className='hover:text-blue-600' to="/">Inicio</Link>
+          <Link className='hover:text-blue-600' to="/blog">Curriculum</Link>
+          <Link className='hover:text-blue-600' to="/works">Trabajos</Link>
         </nav>
       </div>
       </section>
